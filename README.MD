@@ -18,7 +18,7 @@ public String onPingCommand() {
 ...
 <!-- The module for Twitch4J -->
 <dependency>
-  <groupId>com.github.stachu540</groupId>
+  <groupId>com.github.twitch4j</groupId>
   <artifactId>sdcf4j-twitch</artifactId>
   <version>%version%</version>
 </dependency>
