@@ -2,7 +2,9 @@ package me.philippheuer.twitch4j.modules;
 
 import de.btobastian.sdcf4j.handler.TwitchHandler;
 import me.philippheuer.twitch4j.TwitchClient;
+import lombok.Getter;
 
+@Getter
 public class Sdcf4 extends IModule {
     private TwitchHandler handler;
 
