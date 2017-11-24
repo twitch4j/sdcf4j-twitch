@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id 'eclipse'
+}
+
+group 'com.github.twitch4j'
+version '1.0-SNAPSHOT'
+
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url "https://jitpack.io" }
+//    maven { url "http://repo.bastian-oppermann.de" }
+}
+
+dependencies {
+    compile "com.github.BtoBastian.sdcf4j:sdcf4j-core:+"
+    compileOnly "com.github.stachu540:twitch4j:feature~modules-SNAPSHOT"
+
+    testCompile "junit:junit:4.12"
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = "4.3.1"
+}
