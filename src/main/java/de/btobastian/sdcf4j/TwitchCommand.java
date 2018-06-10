@@ -27,7 +27,7 @@ public @interface TwitchCommand {
      *
      * @return The commands the executor should listen to.
      */
-    String[] aliases();
+    String[] aliases() default {};
 
     /**
      * Gets the description of the command.
