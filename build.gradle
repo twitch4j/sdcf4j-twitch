@@ -16,7 +16,7 @@ repositories {
 
 dependencies {
     compile "com.github.BtoBastian.sdcf4j:sdcf4j-core:+"
-    compileOnly "com.github.twitch4j:v0.10.2"
+    compileOnly "com.github.twitch4j:twitch4j:v0.10.2"
 
     testCompile "junit:junit:4.12"
 }
